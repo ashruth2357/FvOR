@@ -1,4 +1,5 @@
 import numpy as np
+import pyximport; pyximport.install()
 from .triangle_hash import TriangleHash as _TriangleHash
 
 
