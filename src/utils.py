@@ -10,7 +10,8 @@ from torch.autograd import Variable
 import time
 import torch.nn.functional as F
 import re
-from torch import container_abcs, string_classes, int_classes
+#from torch import container_abcs, string_classes, int_classes
+import collections.abc as container_abcs
 import torch.distributed as dist
 import torch.multiprocessing as mp
 import subprocess
