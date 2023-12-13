@@ -1,4 +1,4 @@
-#!/bin/bash -l
+#!/bin/bash 
 
 main_cfg=$1
 n_nodes=1
