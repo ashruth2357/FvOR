@@ -1,5 +1,5 @@
 import torch
-from pytorch_lightning.profiler import SimpleProfiler, PassThroughProfiler
+from lightning.pytorch.profiler import SimpleProfiler, PassThroughProfiler
 from contextlib import contextmanager
 from pytorch_lightning.utilities import rank_zero_only
 
